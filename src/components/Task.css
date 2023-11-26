@@ -1,0 +1,97 @@
+input {
+    size: 30vh;
+}
+
+
+
+.task-input {
+    width: 55vh;
+    height: 5vh;
+    border: 0.15vh solid rgb(143, 195, 188);
+    border-radius: 1vh;
+    padding: 0 1vh;
+    font-size: 2vh;
+    font-weight: 500;
+    box-shadow: 0 0vh, 1vh rgb(93, 76, 51);
+}
+
+.task-input:disabled{
+    background-color: rgb(223, 218, 228);
+}
+@media (max-width: 768)  {
+    .todos-wrapper {
+        margin-top: 1rem;
+    }
+    .task-input{
+        width: 18.4rem;
+    }
+    .todo-item {
+        width: 21rem;
+    }
+    
+}
+
+.task-icon {
+    width: 3vh;
+    height: 3.5vh;
+    position: relative;
+    right: 4vh; 
+    top: 1.4vh;
+    padding: 0.1vh;
+    background-color: rgb(147, 227, 237);
+    box-shadow: 0 0 0 0.1vh rgb(144, 182, 184);
+    border-radius: 1vh;
+    
+}
+
+.todos-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    margin-top: 2rem;
+}
+
+.todo-item{
+   display: flex;
+    justify-content: space-between;
+    gap: 1vh;
+    width: 80vh;
+    height: 4vh;
+    padding: 0 10vh;
+    font-size: 2vh;
+    color: rgb(128, 142, 137);
+}
+
+.icons{ /*pencil and trash icons */
+    color: rgb(139, 151, 160);
+    cursor: pointer;
+    margin-right: 2vh;
+    border: 0.15vh solid rgb(149, 181, 178);
+    background-color: rgba(162, 223, 204, 0.9);
+    
+}
+
+.icons:hover{ 
+    background-color:  rgba(121, 195, 173, 0.782);
+}
+
+.todo-link{
+    text-decoration: none;
+    color: rgb(109, 125, 125);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 160px;
+    height: 1.2rem;
+    
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+

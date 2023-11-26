@@ -1,0 +1,23 @@
+.title
+{
+    font-size: 2rem;
+    width: 70vh;
+    color: rgb(152, 169, 169);
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.1em solid rgb(214, 202, 94);
+    animation: typing 1.75s steps(22), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: rgb(231, 218, 123);
+    }
+}

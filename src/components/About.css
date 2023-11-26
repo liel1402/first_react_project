@@ -1,0 +1,14 @@
+.description{
+    width: 50%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .subtitle{
+        font-size: x-large;
+    }
+    .description{
+        width: 95%;
+        color: rgb(165, 173, 170);
+    }    
+}

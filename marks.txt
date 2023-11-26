@@ -1,0 +1,34 @@
+- create a new project:
+    https://vitejs.dev/
+
+    - create an empty folder and open it
+    - open terminal
+    - typing: npm create vite@latest
+    - typing project name
+    - choose react
+    - choose javascript
+    - cd [project_name]
+    -npm install
+
+- run the project:
+    typing in the terminal: npm run dev
+
+- delete the file App.css
+- delete the content of the file index.css
+
+- react router dom - enables to implement dynamic routing in a web app
+    https://www.npmjs.com/package/react-router-dom
+
+    install:
+        typing in the terminal: npm i react-router-dom
+
+- rafc command in a page: Creates a React Arrow Function Component, create the basic code for the pages
+
+- install the icon library
+    npm install lucide-react
+
+
+fix the format -> als + shift + f
+
+
+npm i react-toastify

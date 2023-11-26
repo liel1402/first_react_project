@@ -1,0 +1,32 @@
+
+.icons{ /*pencil and trash icons */
+    color: rgb(139, 151, 160);
+    cursor: pointer;
+    margin-right: 2vh;
+    border: 0.15vh solid rgb(149, 181, 178);
+    background-color: rgba(162, 223, 204, 0.9);
+}
+
+.icons:hover{ 
+    animation: moveLeft 1s infinite ;
+    background-color:  rgba(121, 195, 173, 0.782);;
+}
+
+@keyframes moveLeft{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .todo-title{
+        text-align: center;
+        font-size: small;
+    } 
+}

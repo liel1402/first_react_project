@@ -1,0 +1,34 @@
+.nav{
+    padding-top: 3vh;
+
+    font-size: large;
+}
+
+.wrapper-links{
+    background-color: rgb(237, 245, 220);
+    display: flex;
+    justify-content: center; /*put the items in the center*/
+    gap: 10%; /* space between the every item (link in that case) */
+    list-style: none ; /* delete the dots from the li */
+    margin: 0;
+    padding: 0;
+    border: 0.15vh solid rgb(197, 201, 169);
+    
+}
+
+.header{
+    background-color: rgb(156, 209, 214);
+    height: 10vh;
+    border: 0.15vh solid rgb(152, 181, 178);
+}
+
+.link{
+    
+    text-decoration: none;
+    color: rgb(127, 143, 155);
+    font-size: 3vh;
+}
+
+.link:hover{
+    color: rgb(92, 103, 111);
+}
